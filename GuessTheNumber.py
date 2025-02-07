@@ -41,4 +41,8 @@ def play_game():
             else:
                 print(f"Congratulations! You guessed the number in {attempts} attempts.")
                 break
-       
+        
+        # Display all incorrect guesses / tracker
+        print("Your incorrect guesses were:", [g for g in guesses if g != number_to_guess])
+        
+        
