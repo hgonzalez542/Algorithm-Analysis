@@ -45,4 +45,13 @@ def play_game():
         # Display all incorrect guesses / tracker
         print("Your incorrect guesses were:", [g for g in guesses if g != number_to_guess])
         
+        # Ask if the user wants to play again
+        play_again = input("Do you want to play again? (yes/no): ").strip().lower()
+        if play_again != 'yes':
+            print("Thanks for playing! Goodbye!")
+            break
+
+if __name__ == "__main__":
+    play_game()
+
         
