@@ -1,4 +1,4 @@
-# Authors: Hector Gonzalez
+# Authors: Hector Gonzalez, Brianna Taylor, Guhan Jeong
 # Date: 02/05/2025
 # Description:  Function to play the 'Guess the Number' game. 
 #               The computer randomly selects a number between 1 and 1024, and the player has to guess it.
