@@ -1,3 +1,9 @@
+# Author: Hector Gonzalez, Brianna Taylor, Guhan Jeong
+# Date: 21-02-2025
+# Description: This program implements the merge sort algorithm to sort a list of numbers. 
+# It works by recursively dividing the original list into two halves until each sublist contains only one element. 
+# Then, it merges these sublists back together in sorted order. 
+
 def merge_sort(S):
     # Printing the test data unsorted before sorting
     print(f"Unsorted S {S}")
