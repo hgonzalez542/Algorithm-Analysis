@@ -1,4 +1,4 @@
-# Authors: Hector Gonzalez
+# Authors: Hector Gonzalez, Guhan Jeong, Brianna Taylor
 # Date: 03/19/2025
 # Description: Implementing the binomial coefficient using the divide and conquer method based on Algorithm 3.1 on page 96.
 
